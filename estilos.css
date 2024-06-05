@@ -106,7 +106,7 @@ body{
 
 	@media only screen and (max-width:720px) { /*consulta de medios especificando aplicar condiciones a la pantalla , en este caso 
 	un ancho máximo de 620px para adaptarse y no se distorsionen los elementos que hay en ella*/
-	  .menu, .main, .right {   /* se consideran los divs que hacen la función para maquetar nuestra página, utilizando las clases .menu, .main, .right 
+	  .menu, .main, .right, #cabecera, body, table, .img, .video, .iframe, .footer, .carrousel {   /* se consideran los divs que hacen la función para maquetar nuestra página, utilizando las clases .menu, .main, .right 
 	  que seran ordenados y adaptados a la pantalla */
 		width:100%;
         height: auto;
